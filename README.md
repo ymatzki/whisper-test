@@ -11,3 +11,9 @@ run
 ```
 python transcribe.py
 ```
+
+run in background
+
+```
+python transcribe.py > /tmp/transcribe.py.log 2>&1 &
+```
